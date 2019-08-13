@@ -1,18 +1,19 @@
 {
     "name": "google-io-extended-flutter-presentation",
     "version": "1.0.0",
-    "description": "",
+    "description": "Google IO Extended Flutter Presentation - Aug 17, 2019",
     "main": "deck.mdx",
     "scripts": {
         "start": "mdx-deck deck.mdx",
         "build": "mdx-deck build deck.mdx",
+        "help": "mdx-deck",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/mcchrish/google-io-extended-flutter-presentation.git"
     },
-    "author": "",
+    "author": "Michael Chris Lopez",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/mcchrish/google-io-extended-flutter-presentation/issues"
