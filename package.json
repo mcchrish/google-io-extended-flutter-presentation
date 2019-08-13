@@ -1,0 +1,32 @@
+{
+    "name": "google-io-extended-flutter-presentation",
+    "version": "1.0.0",
+    "description": "",
+    "main": "deck.mdx",
+    "scripts": {
+        "start": "mdx-deck deck.mdx",
+        "build": "mdx-deck build deck.mdx",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mcchrish/google-io-extended-flutter-presentation.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mcchrish/google-io-extended-flutter-presentation/issues"
+    },
+    "homepage": "https://github.com/mcchrish/google-io-extended-flutter-presentation#readme",
+    "devDependencies": {
+        "mdx-deck": "^3.0.9",
+        "prettier": "^1.18.2"
+    },
+    "dependencies": {
+        "@mdx-deck/themes": "^3.0.8"
+    },
+    "prettier": {
+        "singleQuote": true,
+        "tabWidth": 4
+    }
+}
