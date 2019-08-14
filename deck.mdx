@@ -1,5 +1,8 @@
+import { Notes } from 'mdx-deck';
+import Highlighter from './components/Highlighter';
 import Logo from './components/Logo';
-import CodeSnippet1 from './components/CodeSnippet1';
+import Dart from './components/Dart';
+import * as snippets from './snippets';
 
 import theme from './theme';
 
@@ -17,6 +20,212 @@ Presented By Michael Chris Lopez
 
 ---
 
-### Code snippet
+## About Me
 
-<CodeSnippet1 />
+-   Michael Chris Lopez
+
+-   BS of Computer Science
+
+-   Software Engineer
+
+<Notes>
+
+-   Graduate of SLU way back 2013
+
+</Notes>
+
+---
+
+<Dart />
+
+## Dart
+
+---
+
+### Entry Point
+
+<Highlighter code={snippets.main} />
+
+<Notes>
+
+-   Entry point
+-   Unlike JavaScript that doesn't have an entry point
+-   Similar to Java and C#
+
+</Notes>
+
+---
+
+### Variables
+
+<Highlighter code={snippets.variables} />
+
+<Notes>
+
+-   Type safe
+-   Type inferences, don't have to specify explicitly the type
+-   It's very similar to JavaScript
+-   A little history, Dart was meant to be replacement to JavaScript back when
+    JavaScript was not a very good language to use
+
+</Notes>
+
+---
+
+### Control Flow
+
+<Highlighter code={snippets.controlFlow1} />
+
+<Notes>
+
+-   Control Flow as usual
+-   TODO
+
+</Notes>
+
+---
+
+### Control Flow
+
+<Highlighter code={snippets.controlFlow2} />
+
+<Notes>
+
+-   Control Flow as usual
+-   TODO
+
+</Notes>
+
+---
+
+### Functions
+
+<Highlighter code={snippets.functions} />
+
+<Notes>
+
+-   TODO
+
+</Notes>
+
+---
+
+### Imports
+
+<Highlighter code={snippets.imports} />
+
+<Notes>
+
+-   TODO
+
+</Notes>
+
+---
+
+### Classes
+
+<Highlighter code={snippets.classes} />
+
+<Notes>
+
+-   TODO
+
+</Notes>
+
+---
+
+### Async
+
+<Highlighter code={snippets.futures} />
+
+<small>
+    <strong>References: </strong>https://dart.dev/guides
+</small>
+
+<Notes>
+
+-   TODO
+
+</Notes>
+
+---
+
+### Hello World
+
+<Highlighter code={snippets.helloWorld} />
+
+---
+
+### Widgets
+
+-   Flutter's building block
+-   Inspired by React's Components.
+-   Declarative UI Programming
+
+<Highlighter code={snippets.widgets} />
+
+<Notes>
+
+-   vs Imperative UI Programming e.g. jQuery
+-   History of React adoption
+    -   Used to separate HTML, JavaScript and CSS
+    -   Now combines HTML and JavaScript together through JSX
+-   TODO
+
+</Notes>
+
+---
+
+## Summary
+
+### Dart
+
+-   UI optimized programming language
+-   Type safe
+-   Familiar syntax
+
+### Flutter
+
+-   Cross-platform
+-   Declarative UI
+-   Native Performance
+-   Opinionated out-of-box experience
+    -   Built-in Material Design widgets
+    -   Development Experience
+        -   Android Studio/VS Code
+        -   Testing/Linting
+        -   Autocompletion
+
+<Notes>
+
+-   Java and JavaScript inspired
+-   Object Orient
+-   Due to the language runtime design, supports hot code reloading seamlessly
+-   Web development via JavaScript transpiling
+
+</Notes>
+
+---
+
+## References
+
+-   Flutter Docs - https://flutter.dev/docs
+-   Flutter Codelabs - https://flutter.dev/docs/codelabs
+-   Dart Docs - https://dart.dev/guides
+-   Material Design - https://material.io/design/
+
+---
+
+<Logo />
+
+## Thank you for listen!
+
+### Happy Hacking!
+
+**Slides are available at:**
+
+https://michaelchris.space/slides/2019-08-17-google-io-flutter-presentation
+
+---
+
+## Codelabs
