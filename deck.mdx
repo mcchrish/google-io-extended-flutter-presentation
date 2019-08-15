@@ -1,4 +1,3 @@
-import { Notes } from 'mdx-deck';
 import Highlighter from './components/Highlighter';
 import Logo from './components/Logo';
 import Dart from './components/Dart';
@@ -16,10 +15,6 @@ Presented By Michael Chris Lopez
 
 ---
 
-## Fast Development
-
----
-
 ## About Me
 
 -   Michael Chris Lopez
@@ -31,6 +26,7 @@ Presented By Michael Chris Lopez
 <Notes>
 
 -   Graduate of SLU way back 2013
+-   Coming from a Web Development background
 
 </Notes>
 
@@ -79,7 +75,7 @@ Presented By Michael Chris Lopez
 <Notes>
 
 -   Control Flow as usual
--   TODO
+-   Very similar to other OOP languages
 
 </Notes>
 
@@ -92,7 +88,6 @@ Presented By Michael Chris Lopez
 <Notes>
 
 -   Control Flow as usual
--   TODO
 
 </Notes>
 
@@ -104,7 +99,11 @@ Presented By Michael Chris Lopez
 
 <Notes>
 
--   TODO
+-   Example is demonstrating recursion
+-   Coming from JavaScript, my favorite part of the language are functions
+-   Type safety, return type needs a type
+-   Arrow function for anonymous functions useful for passing as arguments
+-   Learn more about optional parameters, default values, lexical scope etc
 
 </Notes>
 
@@ -116,7 +115,9 @@ Presented By Michael Chris Lopez
 
 <Notes>
 
--   TODO
+-   For organizing your code in several logical files
+-   Essential for scaling your application
+-   You can of course write it all in the `main.dart` file but that's just crazy
 
 </Notes>
 
@@ -128,7 +129,10 @@ Presented By Michael Chris Lopez
 
 <Notes>
 
--   TODO
+-   Inheritance
+-   Coming from JS, I much prefer Functional rather than OO
+-   And much more, e.g. Abstract classes
+-   Mixins which is similar to Traits to other languages
 
 </Notes>
 
@@ -144,15 +148,32 @@ Presented By Michael Chris Lopez
 
 <Notes>
 
--   TODO
+-   If you are coming from JS, this is equivalent to the async/await functions
+-   Futures are Promises in JS
+-   Being adapted by languages now
+-   Easier to reason with vs callback hell, promise hell
 
 </Notes>
+
+---
+
+<Logo />
+
+## Flutter
 
 ---
 
 ### Hello World
 
 <Highlighter code={snippets.helloWorld} />
+
+<Notes>
+
+-   The most basic setup for a Flutter app
+-   Render tree
+-   Composable and Declarative vs Imperative
+
+</Notes>
 
 ---
 
@@ -170,7 +191,6 @@ Presented By Michael Chris Lopez
 -   History of React adoption
     -   Used to separate HTML, JavaScript and CSS
     -   Now combines HTML and JavaScript together through JSX
--   TODO
 
 </Notes>
 
@@ -182,7 +202,7 @@ Presented By Michael Chris Lopez
 
 -   UI optimized programming language
 -   Type safe
--   Familiar syntax
+-   Familiar syntax (OOP)
 
 ### Flutter
 
@@ -191,10 +211,11 @@ Presented By Michael Chris Lopez
 -   Native Performance
 -   Opinionated out-of-box experience
     -   Built-in Material Design widgets
-    -   Development Experience
+    -   Development experience
         -   Android Studio/VS Code
         -   Testing/Linting
         -   Autocompletion
+        -   Dependencies/Package Manager
 
 <Notes>
 
@@ -202,6 +223,26 @@ Presented By Michael Chris Lopez
 -   Object Orient
 -   Due to the language runtime design, supports hot code reloading seamlessly
 -   Web development via JavaScript transpiling
+-   Due to familiar language, getting into it is quick. And for that reason, the
+    community can grow quickly especially people who came from similar language.
+    e.g. JavaScript community
+
+</Notes>
+
+---
+
+### Limitations
+
+<Notes>
+
+-   Personal opinions here
+-   Still very new, active in development
+-   Small community and resources
+-   Low amount of third-party libraries, you'll have to write your own if
+    doesn't exists
+-   Have to learn a new language
+-   Infrastructure is still in pretty early stages
+-   Despite that, everything is very promising
 
 </Notes>
 
@@ -226,6 +267,34 @@ Presented By Michael Chris Lopez
 
 https://michaelchris.space/slides/2019-08-17-google-io-flutter-presentation
 
+<Notes>
+
+-   Thank GDG Baguio for inviting to hold a talk
+
+</Notes>
+
 ---
 
 ## Codelabs
+
+-   Setup your development environment
+-   Building your first Flutter application
+
+---
+
+## Codelabs
+
+https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1
+https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2
+
+### What you'll need
+
+-   Flutter SDK
+-   Android Studio and/or Visual Studio Code
+-   Xcode
+
+### Setup and installation instructions
+
+https://flutter.dev/docs/get-started/install
+
+**Reference:** https://flutter.dev/docs/codelabs
